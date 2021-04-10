@@ -15,7 +15,12 @@ class LoginPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    /// uncomment for testing or without firebase
+    // final repository = context.select((TestUserRepository u) => u);
+
+    /// comment for testing or without firebase
     final repository = context.select((FirebaseUserRepository u) => u);
+
     final authBloc = BlocProvider.of<AuthenticationBloc>(context);
 
     return Scaffold(

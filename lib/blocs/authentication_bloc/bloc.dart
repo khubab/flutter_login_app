@@ -1,6 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_login_app/blocs/authentication_bloc/events.dart';
-import 'package:flutter_login_app/blocs/authentication_bloc/states.dart';
+import 'package:flutter_login_app/blocs/authentication_bloc.dart';
 import 'package:flutter_login_app/repository/user_repository.dart';
 
 /// Manages the authentication state of the app
