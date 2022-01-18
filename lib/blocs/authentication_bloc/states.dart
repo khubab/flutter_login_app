@@ -5,7 +5,7 @@ abstract class AuthenticationState extends Equatable {
   const AuthenticationState();
 
   @override
-  List<Object?> get props => [];
+  List<Object> get props => [];
 }
 
 /// App just opened, login or register actions required
